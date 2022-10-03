@@ -20,7 +20,18 @@
 
 // console.log(texto4.substring(0,5) + texto4.indexOf("f") + texto4.indexOf("o"));
 
+let texto = 77;
 
+console.log( texto !== 77 ? "é verdadeiro" : "é falso");
+
+if( texto){
+    console.log("é verdadeiro");
+}else{
+    console.log("é falso");
+}
+
+let nome = "Sofia";
+console.log(nome.split("").reverse().join("")); //colocando nome de tras pra frente
 
 
 
